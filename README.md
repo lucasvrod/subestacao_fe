@@ -1,33 +1,48 @@
-# substation-management
+# ⚡ Gerenciador de Subestações Elétricas
 
-This template should help get you started developing with Vue 3 in Vite.
+Este projeto é uma aplicação web para **gerenciamento de subestações elétricas**, incluindo funcionalidades de autenticação, cadastro, edição, visualização e listagem de subestações e redes MT (média tensão).
 
-## Recommended IDE Setup
+A aplicação é composta por um **frontend em Vue 3 (Composition API + TypeScript)** e um **backend em Spring Boot** com segurança e documentação via Swagger.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+<p align="center">
+  <img src="./docs/screenshots/login.png" alt="Tela de Login" width="600"/>
+  <img src="./docs/screenshots/lista.png" alt="Tela de listagem" width="600"/>
+</p>
 
-## Type Support for `.vue` Imports in TS
+---
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## 🚀 Tecnologias Utilizadas
 
-## Customize configuration
+### Frontend
+- [Vue 3](https://vuejs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Pinia](https://pinia.vuejs.org/)
+- [Vue Router](https://router.vuejs.org/)
+- [Axios](https://axios-http.com/)
+- [PrimeVue](https://www.primefaces.org/primevue/)
+- Composição via `*.vue` (Componentização)
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+---
 
-## Project Setup
+## 🔧 Como rodar o projeto
+📦 Requisitos
+Node.js 18+
 
-```sh
-npm install
+NPM ou Yarn
+
+## 🌐 Frontend
 ```
-
-### Compile and Hot-Reload for Development
-
-```sh
+cd frontend
+npm install
 npm run dev
 ```
+A aplicação estará disponível em: http://localhost:8081
 
-### Type-Check, Compile and Minify for Production
+## 🖼️ Telas (Wireframes / Protótipos)
+Login
 
-```sh
-npm run build
-```
+Listagem de Subestações
+
+Inclusão / Edição / Visualização
+
+Confirmação de Exclusão
